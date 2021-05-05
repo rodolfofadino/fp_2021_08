@@ -1,0 +1,327 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="bundleconfig.json" />
+    <Content Remove="wwwroot\js\site.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\LICENSE" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\gulpfile.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\jquery.lazy.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\jquery.lazy.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\jquery.lazy.plugins.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\jquery.lazy.plugins.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\LICENSE" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.ajax.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.ajax.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.av.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.av.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.iframe.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.iframe.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.noop.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.noop.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.picture.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.picture.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.script.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.script.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.vimeo.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.vimeo.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.youtube.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.youtube.min.js" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\plugins\README.md" />
+    <Content Remove="wwwroot\lib\jquery.lazy-master\README.md" />
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bundleconfig.json" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery.lazy-master\gulpfile.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\jquery.lazy.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\jquery.lazy.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\jquery.lazy.plugins.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\jquery.lazy.plugins.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\LICENSE" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.ajax.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.ajax.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.av.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.av.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.iframe.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.iframe.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.noop.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.noop.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.picture.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.picture.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.script.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.script.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.vimeo.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.vimeo.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.youtube.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\jquery.lazy.youtube.min.js" />
+    <None Include="wwwroot\lib\jquery.lazy-master\plugins\README.md" />
+    <None Include="wwwroot\lib\jquery.lazy-master\README.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fiap.Application\Fiap.Application.csproj" />
+    <ProjectReference Include="..\Fiap.Infrastructure\Fiap.Infrastructure.csproj" />
+    <ProjectReference Include="..\Fiap.IoC\Fiap.IoC.csproj" />
+    <ProjectReference Include="..\Fiap.Persistence\Fiap.Persistence.csproj" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.1.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Home\Sobre.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\Noticias\Noticias.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\Noticias\NoticiasUrgentes.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_Layout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_LoginPartial.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_Menu.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_ValidationScriptsPartial.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\_ViewImports.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\_ViewStart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\cat.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\bundle.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\bundle.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\jcarousel.basic.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\css\site.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\favicon.ico">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\giphy.gif">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\giphy.webp">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\alemanha.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\argentina.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\brasil.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\canada.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\espanha.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\eua.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\grecia.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\imagem-1.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\imagem-2.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\imagem-3.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\imagem-4.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\italia.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\japao.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\mysprite.sprite">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\mysprite.sprite.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\mysprite.sprite.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\portugal.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\bundle.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\bundle.min.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\js\jquery.jcarousel.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery.lazy-master\bower.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery.lazy-master\package-lock.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery.lazy-master\package.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\jquery\LICENSE.txt">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\StyleSheet.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
